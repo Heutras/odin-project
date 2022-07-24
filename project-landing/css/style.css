@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+h1,
+h2 {
+  margin: 10px 0;
+}
+p {
+  margin: 10px 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navbar {
+  background-color: #1f2937;
+  color: #fff;
+  height: 70px;
+}
+.navbar .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.navbar .flex {
+  justify-content: space-between;
+}
+.navbar h1 {
+  margin: 0;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar a {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px;
+  margin: 5px;
+}
+.navbar a:hover {
+  border-bottom: 2px solid white;
+}
+.hero {
+  background-color: #1f2937;
+  color: #fff;
+  height: 500px;
+}
+.hero .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.hero .title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.hero .description {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero .text {
+  flex-basis: 50%;
+}
+.hero .img {
+  background-color: gray;
+  height: 200px;
+  flex-basis: 50%;
+}
+.hero button {
+  padding: 10px 30px;
+  font-weight: 700;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+.info {
+  height: 600px;
+}
+.info .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.info .box-container.flex {
+  gap: 48px;
+  flex-wrap: wrap;
+}
+.info .title {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  margin: 0;
+  font-weight: 900;
+  margin: 12px 0;
+}
+.info .box {
+  border-radius: 25px;
+  border: 3px solid #3882f6;
+  padding: 20px;
+  min-width: 100px;
+  min-height: 200px;
+}
+.info .desc {
+  width: 200px;
+  text-align: center;
+}
+.quote {
+  height: 500px;
+  background-color: #e5e7eb;
+}
+.quote .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.quote .text {
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+}
+.quote .author {
+  font-size: 24px;
+  align-self: flex-end;
+}
+.email {
+  height: 400px;
+  color: #fff;
+}
+.email .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #3882f6;
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.email h2 {
+  font-size: 24px;
+  margin: 0;
+}
+.email p {
+  margin: 0;
+}
+.email button {
+  padding: 10px 30px;
+  font-weight: 700;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 6px;
+  border: 3px solid white;
+  font-size: 16px;
+}
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 70px;
+}
