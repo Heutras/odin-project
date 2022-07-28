@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="javascript.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    
+    <div id = 'info-text'>Select a game speed to start game!</div>
+    <div class="speedButtons">
+        
+        <button id ="slowButton">Slow</button>
+        <button id ="mediumButton">Medium</button>
+       
+        <button id="fastButton">Fast</button>
+      </div>
+    
+      <div id = 'turn-name'></div>
+    <div class = "gameBoard" id = "gameBoard">
+        <div class="cell" id ="1" data-cell></div>
+        <div class="cell" id ="2" data-cell></div>
+        <div class="cell" id ="3"data-cell></div>
+        <div class="cell" id ="4"data-cell></div>
+        <div class="cell" id ="5"data-cell></div>
+        <div class="cell" id ="6"data-cell></div>
+        <div class="cell" id ="7"data-cell></div>
+        <div class="cell" id ="8"data-cell></div>
+        <div class="cell" id ="9"data-cell></div>
+    </div>
+    <div class = "winner" id = "winnerMessage">
+        <div data-winner-text></div>
+        <button id = "restartButton">Reset Board</button>
+    </div>
+</body>
+</html>
